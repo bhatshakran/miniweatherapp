@@ -26,7 +26,7 @@ const WeatherResults = ({ data, clearFill }) => {
             {/* img based on the weather */}
             <div className='weather_icon'>
               <img
-                src={`http://openweathermap.org/img/w/${data.weather[0].icon}.png`}
+                src={`https://openweathermap.org/img/w/${data.weather[0].icon}.png`}
                 alt=''
               />
             </div>
